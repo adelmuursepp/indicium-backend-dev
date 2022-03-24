@@ -8,7 +8,7 @@ from kmodes.kmodes import KModes
 
 def k_modes(num_centroids):
     csv_data = pd.read_csv(
-        "~/Downloads/IPIP-FFM-data-8Nov2018/data-final.csv", sep="\t"
+        "~/Downloads/IPIP-FFM-data-8Nov2018/data-final.csv", sep="\t" # taking data from ....
     ).iloc[0:1000, 0:50]
     csv_array = csv_data.to_numpy()
     kmodes = KModes(n_clusters=num_centroids, init="Huang")

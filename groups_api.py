@@ -151,6 +151,7 @@ def leave_group():
 @check_authenticated
 def form_groups():
     request_json = request.json
+    # From request object get kmeans/kmodels/smth
     course_id = request_json["courseId"]
     assignment_id = request_json["assignmentId"]
 

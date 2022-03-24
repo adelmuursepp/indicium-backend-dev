@@ -9,6 +9,7 @@ The `requirements.txt` file has a list of packages that are needed.
 To create a virtual environment: `pip install virtualenv` then `virtualenv -p python3 venv`.
 
 To activate the virtual environment: `.\venv\Scripts\activate`.
+To activate the virtual environment on Mac: `source venv/bin/activate`
 
 To install the packages from the `requirements.txt` file: `pip install -r requirements.txt`.
 
