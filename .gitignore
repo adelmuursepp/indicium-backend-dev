@@ -130,3 +130,6 @@ dmypy.json
 
 .vscode/settings.json
 uoft-hex-*
+
+# Google Credentials
+uoft-hex-52b65-firebase-adminsdk-dv4h6-cd0f182805.json
