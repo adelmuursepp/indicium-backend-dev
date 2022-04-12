@@ -8,8 +8,11 @@ from courses_api import courses_api
 from assignments_api import assignments_api
 from groups_api import groups_api
 from survey_api import survey_api
+from feedbackform_api import feedbackform_api
+
 
 app.register_blueprint(survey_api)
+app.register_blueprint(feedbackform_api)
 app.register_blueprint(auth_api)
 app.register_blueprint(courses_api)
 app.register_blueprint(assignments_api)
