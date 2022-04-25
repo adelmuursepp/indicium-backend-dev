@@ -38,6 +38,7 @@ firebase_app = firebase_admin.initialize_app()
 db = firestore.client(app=firebase_app)
 users_collection_ref = db.collection("users")
 courses_collection_ref = db.collection("courses")
+assignments_collection_ref = db.collection("feedbackforms")
 
 
 def get_token(uid):
