@@ -13,6 +13,7 @@ To activate the virtual environment: `.\venv\Scripts\activate`. (Please note tha
 To install the packages from the `requirements.txt` file: `pip install -r requirements.txt`.
 
 **How to run**
+
 `python run.py`
 
 **Keys**
